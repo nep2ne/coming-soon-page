@@ -1,0 +1,59 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.heading1 {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #4F3B49;
+}
+
+.heading2 {
+  font-family: "Open Sans", sans-serif;
+  color: #8D7689;
+}
+
+.contact-category {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.contact-details {
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.about-me {
+  font-family: "Open Sans", sans-serif;
+  color: #8D7689;
+}
+
+footer {
+  background-color: #4F3B49;
+}
