@@ -57,3 +57,7 @@ body {
 footer {
   background-color: #4F3B49;
 }
+
+a:hover {
+  color: #E8E7E8;
+}
